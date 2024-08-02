@@ -592,23 +592,27 @@ input {
   padding-left: 38px;
   outline: transparent;
   border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-color: #4D5AE5;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:active {
   border: 1px solid #4d5ae5;
+  fill: #4D5AE5;
 }
 
 .form-input:hover {
   border: 1px solid #4d5ae5;
+  fill: #4D5AE5;
 }
 
 .form-input:focus {
   border: 1px solid #4d5ae5;
+  fill: #4D5AE5;
 }
 
 .form-input:checked {
   border: 1px solid #4d5ae5;
+  fill: #4D5AE5;
 }
 
 .form-button {
@@ -778,12 +782,4 @@ input {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.subscribe {
-  display: flex;
-  align-items: center;
-  max-width: 453px;
-  gap: 24px;
-  margin-top: 56px;
 }
