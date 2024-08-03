@@ -821,7 +821,3 @@ p {
 .user-privacy-a {
   color: #4d5ae5;
 }
-
-input:checked + label > span {
-  fill: #F4F4FD
-}
