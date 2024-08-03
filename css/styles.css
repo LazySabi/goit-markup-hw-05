@@ -566,23 +566,6 @@ p {
   position: absolute;
 }
 
-form {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-label {
-  display: flex;
-  flex-direction: column;
-}
-
-input {
-  padding: 4px;
-  font-family: inherit;
-}
-
 .form-input {
   width: 100%;
   height: 40px;
@@ -826,6 +809,7 @@ input {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .form-label-input-last:checked {
@@ -836,11 +820,6 @@ input {
 
 .user-privacy-a {
   color: #4d5ae5;
-}
-
-input:focus-within,
-textarea:focus-within {
-  background-color: #4d5ae5;
 }
 
 input:checked + label > span {
