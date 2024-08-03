@@ -674,6 +674,9 @@ p {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-button-icon {
