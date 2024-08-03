@@ -801,7 +801,7 @@ input {
   padding: 8px 16px;
   outline: transparent;
   resize: none;
-  ransition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input-textarea:focus {
@@ -837,4 +837,14 @@ input {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.form-label-input-last:checked {
+  background-color: #404bbf;
+  border: none; 
+  fill: #F4F4FD;
+}
+
+.user-privacy-a {
+  color: #4d5ae5;
 }
