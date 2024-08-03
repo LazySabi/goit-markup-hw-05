@@ -822,8 +822,8 @@ p {
   color: #4d5ae5;
 }
 
-input:checked + label > span {
-  background-color: #404bbf;
-  border: none;
+input:checked+label>span {
+  background-color: #404BBF;
   fill: #F4F4FD;
+  border: none;
 }
