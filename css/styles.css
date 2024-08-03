@@ -821,9 +821,3 @@ p {
 .user-privacy-a {
   color: #4d5ae5;
 }
-
-.form-label-input-last:checked + .form-label-last > .user-privacy-span {
-  background-color: #404BBF;
-  fill: #F4F4FD;
-  border: none;
-}
