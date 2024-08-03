@@ -595,24 +595,13 @@ input {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-input:focus,
 .form-input:active {
-  border: 1px solid #4d5ae5;
-  fill: #4D5AE5;
+  border-color: #4d5ae5;
 }
 
-.form-input:hover {
-  border: 1px solid #4d5ae5;
-  fill: #4D5AE5;
-}
-
-.form-input:focus {
-  border: 1px solid #4d5ae5;
-  fill: #4D5AE5;
-}
-
-.form-input:checked {
-  border: 1px solid #4d5ae5;
-  fill: #4D5AE5;
+.form-input:focus-within + .username-icon {
+  fill: #4d5ae5;
 }
 
 .form-button {
@@ -847,4 +836,13 @@ input {
 
 .user-privacy-a {
   color: #4d5ae5;
+}
+
+input:focus-within,
+textarea:focus-within {
+  background-color: #4d5ae5;
+}
+
+input:checked + label > span {
+  fill: #F4F4FD
 }
